@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(270deg, #8b92aa, #eaeaea);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    margin: 5%;
+    margin-top: 2%;
+    color: #302c2c;
+}
+
+header .titleDiv {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+header .titleDiv h3 {
+    padding-top: 6px;
+}
+
+main {
+    margin: 5% 5%;
+    margin-top: -2%;
+    position: relative;
+    flex-direction: column;
+}
+
+main h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+main h5 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #666060;
+    margin-bottom: 20px;
+}
+
+main a {
+    width: 100%;
+    background-color: #4E17BA;
+    color: #eaeaea;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+main a:hover{
+    background-color: #6e32e6;
+}
+
+.comparisionDiv{
+    margin-left: 5%;
+}
+
+.titleDiv h4 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.nomes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    font-size: 19px;
+    font-weight: 500;
+}
+.nomes .concorrente{
+    margin-right: 15%;
+}
+.ofertasEmprego {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+.V1 {
+    margin-left: 14.5%;
+    color: #0AB051;
+}
+
+.V2 {
+    margin-left: 18.5%;
+    color: #0AB051;
+}
+
+.assedioFree {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+.F1 {
+    margin-left: 17.7%;
+    color: #FD0100;
+}
+
+.V3 {
+    margin-left: 18.5%;
+    color: #0AB051;
+}
+
+.concursos {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+.F2 {
+    margin-left: 10.9%;
+    color: #FD0100;
+}
+
+.V4 {
+    margin-left: 18.5%;
+    color: #0AB051;
+}
+
+.empoderamento {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+.F3 {
+    margin-left: 9.4%;
+    color: #FD0100;
+}
+
+.V5 {
+    margin-left: 18.5%;
+    color: #0AB051;
+}
+
+.ofertasLabel{
+    color: #2b2d2ea4;
+}
+
+.assedioLabel{
+    color: #2b2d2ea4;
+}
+
+.concursosLabel{
+    color: #2b2d2ea4;
+}
+
+.empoderamentoLabel{
+    color: #2b2d2ea4;
+}
+
+.images {
+    position: relative;
+    margin-top: -50%;
+    margin-left: 60%;
+    width: 40%;
+}
+
+.images img {
+    margin-top: 24%;
+    width: 70%;
+}
+
+
+.images .circle1{
+    position: absolute;
+    height: 155%;
+    width: 100%;
+    top: 10;
+    background: linear-gradient(45deg, #e8cbc0, #636fa4);
+    clip-path: circle(40% at right 10%);
+    z-index: -1;
+}
+
