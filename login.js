@@ -7,3 +7,4 @@ function saveUsername(){
     var usernameLogin = username.value;
     localStorage.setItem('username', usernameLogin)
 }
+
