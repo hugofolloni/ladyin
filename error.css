@@ -61,8 +61,14 @@ header{
     margin: 20px;
 }
 
-.buttons:nth-child(4){
-    margin-top: -1%;
+.buttons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons:nth-child(5){
+    margin-top: -0.5%;
 }
 
 main{
