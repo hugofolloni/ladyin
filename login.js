@@ -1,10 +1,16 @@
 var username = document.getElementById('username');
 var button = document.getElementById('button');
+var password = document.getElementById('password')
 
 button.addEventListener('click', saveUsername);
 
+
 function saveUsername(){
-    var usernameLogin = username.value;
-    localStorage.setItem('username', usernameLogin)
+    if((username.value != '') && (password.value != '')) {
+        button.href = 'index.html'
+        var usernameLogin = username.value;
+        console.log(usernameLogin)
+        localStorage.setItem('username', usernameLogin)
+    }   
 }
 
