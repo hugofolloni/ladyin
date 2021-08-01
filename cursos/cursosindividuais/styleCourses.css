@@ -8,9 +8,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+
 body {
     background: #FAFAFA;
-    min-height: 100vh;
+    max-height: 100vh;
     max-width: 100vw;
 }
 
@@ -116,7 +117,6 @@ main{
     text-align: center;
 }
 
-
 .menus i{
     margin-right: 25px;
     margin-left: -20px;
@@ -135,7 +135,7 @@ main{
 
 .menus {
     background-color: #2A2A35;
-    width: 205px;
+    width: 200px;
     margin-left: 0px;
     height: 55px;
     margin-top: 0px;
@@ -147,68 +147,104 @@ main{
     cursor: pointer;
 }
 
-#meusCursos {
-    background-color: #10101a;
+.top {
+    display: flex;
+    flex-direction: row;
 }
-
-#meusCursos a{
-    color:#7829df;
-}
-
-.centralMenu {
+.topLeft {
     display: flex;
     flex-direction: column;
+    width: 55%;
+    margin: 50px;
+    margin-left: -0px;
+    margin-bottom: -0px;
 }
 
-.centralMenu div {
-    margin: 5px;
+.xGetBack {
+    margin: 20px;
 }
 
-.firstRowCourses{
+.courseName{
+    font-size: 40px;
+}
+
+.topRight {
+    margin: 100px 20px;
+}
+
+.logoLadyTech{
     display: flex;
     flex-direction: row;
-}
-
-.bottomInfos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
 }
 
-.bottomInfos p {
-    margin-left: 200px;
-    color: #CA89FF;
-    font-weight: 600;
+.bottomPage{ 
+    margin-top: 5%;
 }
 
-.bottomInfos .aprovado {
-    margin-left: 140px;
-    font-weight: 400px;
+.bottomPage div{
+    margin-bottom: 5px;
 }
 
-.secondRowCourses{
+.courseDescription h5{
+    font-weight: 500;
+}
+
+.linkSubscribe {
     display: flex;
-    flex-direction: row;
-}
-
-.underlinePurpleD {
-    background-color: #8F0DFF;
-    height: 3px;
-    content: '';
-}
-
-
-.underlinePurpleND {
-    background-color: #EACCFF;
-    height: 3px;
-    content: '';
-}
-
-.curso {
     text-align: center;
+    background-color: #8F3DEA;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+    cursor: pointer;
 }
 
-.curso h5 {
-    color: black;
+.subscribeButtonC {
+    background-color: #a170da;
+    border-radius: 15px;
+    cursor: default;
+}
+
+.linkSubscribe:hover{
+    background-color:#573281 ;
+}
+
+.linkSubscribe a {
+    color: white;
+    font-weight: 700;
+    size: 100%;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.images{
+    margin-top: -40px;
+    margin-bottom: 0px;
+}
+
+
+.images .circle1{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(45deg, #e8cbc0, #636fa4);
+    clip-path: circle(40% at right 10%);
+    z-index: -1;
+    margin-bottom: 0px;
+}
+
+
+.images img {
+    margin-left: 45%;
+    width: 20%;
+    margin-top: -60%;
+    margin-bottom: 0px;
 }
