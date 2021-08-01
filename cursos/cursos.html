@@ -12,15 +12,57 @@
 <body>
     <header>
         <div class="leftHeader">
-            <a href="../index.html">
-                <img src="../assets/logo" alt="logo" class="logoLadytechHeader" width="90px">
-            </a>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../assets/logowhite" alt="logo" width="70px">
+                </a>
+            </div>
+            <input type="text" class="inputSearch" id="inputSearch">
         </div>
         <div class="rightHeader">
-            <p id='HelloUser'>Olá, ...</p>
-            <a href="../error.html">
-                <img src="../assets/profilepicpng.png" alt="profilepic" class="profilepic" width="50px" height="50px">
-            </a>
+            <div class="buttons">
+                <a href="../index.html"> 
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="cursos.html">
+                    <i class="fas fa-graduation-cap"></i>
+                    Cursos
+                </a>
+                <p class='underline'>_</p>
+            </div>
+            <div class="buttons">
+                <a href="../error.html">
+                    <i class="fas fa-comments-dollar"></i>
+                    Mensagens
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="../error.html">
+                    <i class="fas fa-bell"></i>
+                    Notificações
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="../error.html">
+                    <i class="fas fa-paperclip"></i>
+                    Cadastro
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="../error.html">
+                    <img src="../assets/profilepic.png" alt="nophoto" width='20px'>
+                    Eu
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="../loginpage.html">
+                    <i class="fas fa-sign-out-alt"></i>
+                    Sair
+                </a>
+            </div>
         </div>
     </header>
     <main>
@@ -32,21 +74,21 @@
                 </a>
                 <div class="underline1"></div>
             </div>
-            <div class="menus">
+            <div class="menus" id='boletim'>
                 <a href="../error.html">
                     <i class="fas fa-book-open"></i>
                     <h5>Boletim</h5>
                 </a>
                 <div class="underline2"></div>
             </div>
-            <div class="menus">
+            <div class="menus" id='agenda'>
                 <a href="../error.html">
                     <i class="fas fa-calendar-times"></i>
                     <h5 class='agendalabel'>Agenda</h5>
                 </a>
                 <div class="underline3"></div>
             </div>
-            <div class="menus">
+            <div class="menus" id='contato'>
                 <a href="../error.html">
                     <i class="fas fa-mail-bulk"></i>
                     <h5>Contato</h5>
@@ -59,10 +101,10 @@
             <div class="firstRowCourses">
                 <div class="curso">
                     <a href="cursosindividuais/pythonIniciante.html">
-                        <img src="../assets/pythonIniciante.png" alt="pythoniniciante" width='275px'>
+                        <img src="../assets/PythonInicialpeq.png" alt="pythoniniciante" width='275px'>
                         <h5>TI - Curso Python - Iniciante</h5>
                         <div class="bottomInfos">
-                            <img src="../assets/profilepic.png" alt="profilepic" height="25px" width="25px">
+                            <img src="../assets/profilepicpng.png" alt="profilepic" height="25px" width="25px">
                             <p>0%</p>
                         </div>
                         <div class="underlinePurpleND"></div>
@@ -71,10 +113,10 @@
     
                 <div class="curso">
                     <a href="cursosindividuais/pythonAvançado.html">
-                        <img src="../assets/pythonAvançado.png" alt="pythonavancado" width='275px'>
+                        <img src="../assets/PythonAvançadopeq.png" alt="pythonavancado" width='275px'>
                         <h5>TI - Curso Python - Avançado</h5>
                         <div class="bottomInfos">
-                            <img src="../assets/profilepic.png" alt="profilepic" height="25px" width="25px">
+                            <img src="../assets/profilepicpng.png" alt="profilepic" height="25px" width="25px">
                             <p>0%</p>
                         </div>
                         <div class="underlinePurpleND"></div>
@@ -83,11 +125,11 @@
 
                     
                 <div class="curso">
-                    <a href="../error.html">
-                        <img src="../assets/entregaAvaliações.png" alt="avaliações" width='275px'>
-                        <h5>TI - Entrega de Avaliações - 2021.2</h5>
+                    <a href="cursosindividuais/swift.html">
+                        <img src="../assets/swiftpeq.png" alt="avaliações" width='275px'>
+                        <h5>TI - Curso de Swift</h5>
                         <div class="bottomInfos">
-                            <img src="../assets/profilepic.png" alt="profilepic" height="25px" width="25px">
+                            <img src="../assets/profilepicpng.png" alt="profilepic" height="25px" width="25px">
                             <p class='aprovado'>APROVADO</p>
                         </div>
                         <div class="underlinePurpleD"></div>
@@ -96,10 +138,10 @@
     
                 <div class="curso">
                     <a href="cursosindividuais/lgpd.html">
-                        <img src="../assets/lpgd.png" alt="lgpd" width='275px'>
+                        <img src="../assets/LGPDpeq.png" alt="lgpd" width='275px'>
                         <h5>TI - LGPD para Programadores</h5>
                         <div class="bottomInfos">
-                            <img src="../assets/profilepic.png" alt="profilepic" height="25px" width="25px">
+                            <img src="../assets/profilepicpng.png" alt="profilepic" height="25px" width="25px">
                             <p class='aprovado'>APROVADO</p>
                         </div>
                         <div class="underlinePurpleD"></div>
@@ -110,10 +152,10 @@
             <div class="secondRowCourses">
                 <div class="curso">
                     <a href="cursosindividuais/kotlin.html">
-                        <img src="../assets/kotlin.png" alt="kotlin" width='275px'>
+                        <img src="../assets/Kotlinpeq.png" alt="kotlin" width='275px'>
                         <h5>TI - Curso Kotlin</h5>
                         <div class="bottomInfos">
-                            <img src="../assets/profilepic.png" alt="profilepic" height="25px" width="25px">
+                            <img src="../assets/profilepicpng.png" alt="profilepic" height="25px" width="25px">
                             <p class='aprovado'>APROVADO</p>
                         </div>
                         <div class="underlinePurpleD"></div>
@@ -122,10 +164,10 @@
     
                 <div class="curso">
                     <a href="cursosindividuais/nodejs.html">
-                        <img src="../assets/nodejs.png" alt="pythoniniciante" width='275px'>
+                        <img src="../assets/Nodepeq.png" alt="pythoniniciante" width='275px'>
                         <h5>TI - Curso de Back-End com Node.js</h5>
                         <div class="bottomInfos">
-                            <img src="../assets/profilepic.png" alt="profilepic" height="25px" width="25px">
+                            <img src="../assets/profilepicpng.png" alt="profilepic" height="25px" width="25px">
                             <p class='aprovado'>APROVADO</p>
                         </div>
                         <div class="underlinePurpleD"></div>
@@ -134,10 +176,10 @@
     
                 <div class="curso">
                     <a href="cursosindividuais/react.html"> 
-                        <img src="../assets/reactRapido.png" alt="react" width='275px'>
+                        <img src="../assets/ReactRapidopeq.png" alt="react" width='275px'>
                         <h5>TI - Curso Rápido React</h5>
                         <div class="bottomInfos">
-                            <img src="../assets/profilepic.png" alt="profilepic" height="25px" width="25px">
+                            <img src="../assets/profilepicpng.png" alt="profilepic" height="25px" width="25px">
                             <p class='aprovado'>APROVADO</p>
                         </div>
                         <div class="underlinePurpleD"></div>
@@ -146,10 +188,10 @@
 
                 <div class="curso">
                     <a href="cursosindividuais/reactnative.html">
-                        <img src="../assets/reactNativeAvançado.png" alt="reactnative" width='275px'>
+                        <img src="../assets/ReactNativepeq.png" alt="reactnative" width='275px'>
                         <h5>TI - Curso React Native - Avançado</h5>
                         <div class="bottomInfos">
-                            <img src="../assets/profilepic.png" alt="profilepic" height="25px" width="25px">
+                            <img src="../assets/profilepicpng.png" alt="profilepic" height="25px" width="25px">
                             <p class='aprovado'>APROVADO</p>
                         </div>
                         <div class="underlinePurpleD"></div>
