@@ -1,2 +1,1 @@
-# LadyIn
-Modelo CSS de uma plataforma de empregos exclusiva para mulheres.
+Na matéria de Sistemas de Informação, no meu primeiro período na faculdade de Ciência da Computação na UFRJ, foi proposto aos alunos um trabalho que tinha como objetivo a resolução de algum problema social listado pela agência brasileira em serviço da ONU. Meu grupo escolheu resolver o problema da "Desigualdade de gênero em meio a tecnologia" e, para isso, decidimos criar um portal de empregos para que mulheres se sintam confortáveis em acessar e divulgar ideias. Para isso, buscando sofisticar o trabalho, decidi criar um esqueleto HTML/CSS para o projeto, o portal LadyIn.
